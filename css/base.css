@@ -1,0 +1,58 @@
+body{
+margin:0px;
+padding: 0px;
+}
+.beijing{
+height: 100%;
+background-image:url(../image/c.jpg);
+}
+#a{ 
+  margin: 0px auto;
+  position:relative;
+}
+#zhe,#zhao{
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.8;
+	color: white;
+	font-size: 10em;
+	line-height: 700px;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+button{
+	width: 200px;
+	height: 100px;
+	border-radius: 20px;
+	position: absolute;
+	top:70%;
+	left: 50%;
+	margin-left: -100px; 
+	font-size: 20px;
+	cursor: pointer;
+}
+.b{
+width:70px;
+height:70px;
+float:left;
+font-size:0px;
+border-radius:50%;
+text-align:center;
+line-height:70px;
+border:1px solid #000000;
+background-image:url(../image/a.jpg);
+color:rgb(154, 15, 5);
+opacity:0.6;
+cursor: pointer;
+margin-left:14.5px;
+margin-top:14.5px;
+ box-shadow:0 0 4px #ccc;
+ -webkit-transition:all .3s ease;
+}
+.b:hover{
+ box-shadow:4px 4px 20px #ccc inset,-4px -4px 20px #ccc inset;
+}
